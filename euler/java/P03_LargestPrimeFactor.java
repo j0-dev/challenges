@@ -4,16 +4,27 @@ public class P03_LargestPrimeFactor
 {
     public static void main(String[] args) 
     {
-        
+        int testNum = 100; 
+    }
+
+    static int[] factorList(int num)
+    {
+        int [] factorListAscending = new int; 
     }
     
-    static boolean isPrime(int num)
+    static int largestPrimeFactor(int num)
     {
-        if (num <= 1)
+
+        int largestPrimeFactor = 1;
+
+        for(int i = 2; i == num; i++)
         {
-            return False;
+            if(num % i == 0)
+            {
+                largestPrimeFactor = i;
+            }
         }
 
-        for(int i = 2; )
+        return largestPrimeFactor;
     }
 }
