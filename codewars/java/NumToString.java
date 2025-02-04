@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class numToString 
+public class NumToString 
 {
     public static void main(String[] args) 
     {

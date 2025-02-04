@@ -1,5 +1,3 @@
-package euler.java;
-
 public class P01_MultiplesOf3Or5 
 {
     public static void main(String[] args) 

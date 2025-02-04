@@ -1,5 +1,3 @@
-package euler.java;
-
 public class P03_LargestPrimeFactor 
 {
     public static void main(String[] args) 
@@ -9,7 +7,7 @@ public class P03_LargestPrimeFactor
 
     static int[] factorList(int num)
     {
-        int [] factorListAscending = new int; 
+        int [] factorListAscending = new int[3]; 
     }
     
     static int largestPrimeFactor(int num)

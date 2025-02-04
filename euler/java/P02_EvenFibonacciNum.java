@@ -1,5 +1,3 @@
-package euler.java;
-
 public class P02_EvenFibonacciNum 
 {
     public static void main(String[] args) 
